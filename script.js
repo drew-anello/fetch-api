@@ -1,10 +1,5 @@
 console.log('connected')
 const URL = 'https://www.omdbapi.com/?apikey=151680d4&t='
-// console.log(URL)
-
-///////////////////////
-//  cached elements/ element reference
-/////////////////////
 const titleEl = document.getElementById('title')
 const yearEl = document.getElementById('year')
 const ratedEl = document.getElementById('rated')
@@ -35,10 +30,3 @@ formEl.addEventListener('submit', function handleGetData (e) {
       console.log('were broken')
     })
 })
-///////////////////////
-//  Event listeners
-/////////////////////
-
-///////////////////////
-//  functions
-/////////////////////
